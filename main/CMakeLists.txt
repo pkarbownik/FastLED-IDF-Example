@@ -2,8 +2,6 @@ idf_component_register(SRCS main.cpp
                     INCLUDE_DIRS "."
                     REQUIRES )
 
-target_compile_options(${COMPONENT_LIB} PRIVATE -Wno-error=class-memaccess)
-
 # Create a SPIFFS image from the contents of the 'spiffs_image' directory
 # that fits the partition named 'storage'. FLASH_IN_PROJECT indicates that
 # the generated image should be flashed when the entire project is flashed to
