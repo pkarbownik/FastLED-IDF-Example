@@ -2,3 +2,4 @@ html/
 *.gch
 *.swp
 *.swo
+/build/
